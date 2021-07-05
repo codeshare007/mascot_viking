@@ -1,0 +1,31 @@
+body{
+    background-image : url("../images/ALL_PAGES_BACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+}
+#timer_div{
+    margin-top:75px;
+    color: white;
+    font-size: 37px;
+}
+@keyframes start-btn-animation{
+    0% { font-size : 2.3vw;}
+    50% {font-size : 2.8vw;}
+    100% {font-size : 2.3vw;}
+}
+.start-btn{
+    background : #93b73a;
+    color : white;
+    font-size : 30px;
+    padding : 5px 30px;
+    letter-spacing: 5px;
+    margin-right: 60px;
+    margin-top: 310px;
+    animation-name : start-btn-animation;
+    animation-duration : 1.5s;
+    animation-iteration-count: infinite;
+}
+.start-btn:hover{
+    color : white;
+}
