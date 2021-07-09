@@ -12,13 +12,13 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
     <body>
-        <div class="position-absolute w-100 d-flex justify-content-center">
-            <div id="timer_div">
+        <div class="w-100 h-100 d-flex justify-content-center">
+            <div id="main_div" class="w-100 h-100 d-flex justify-content-center align-items-center">
+                <div class="h-100 d-flex align-items-center">
+                    <button class="btn start-btn" onclick="startTimer();goToURL('mainpage/mainpage.php');">START</button>
+                </div>
             </div>
-        </div>
-        <div id="main_div" class="h-100 d-flex justify-content-center align-items-center">
-            <div class="h-100 d-flex align-items-center">
-                <button class="btn start-btn" onclick="startTimer();goToURL('mainpage/mainpage.php');">START</button>
+            <div class="position-absolute" id="timer_div">
             </div>
         </div>
     </body>

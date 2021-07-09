@@ -1,7 +1,7 @@
 <style scope>
     .police-img {
         width : 60%;
-        cursor : pointer;
+        margin-top : -150px;
     }
     .blank{
         height : 30vw;
@@ -20,18 +20,13 @@
         width : 10vw;
         height : 10vw;
     }
-    .cursor-default {
-        cursor : default;
-    }
 </style>
 <div class="w-100">
     <img class="w-100 office-img" src="assets/images/police_office.png"/>
-    <div class="row w-100">
+    <div class="row m-0 p-0">
         <div class="col-md-6 col-sm-6">
             <div>
                 <img class="police-img" src="assets/images/police.png" />
-            </div>
-            <div class="blank">
             </div>
         </div>
         <div class="col-md-6 col-sm-6" align="center">

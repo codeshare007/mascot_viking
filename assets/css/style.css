@@ -3,11 +3,17 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size : cover;
+    overflow : hidden;
 }
 #timer_div{
-    margin-top:75px;
+    top : 75px;
     color: white;
-    font-size: 37px;
+    font-size: 3vw;
+}
+@media screen and (max-width : 630px){
+    #timer_div {
+        font-size : 20px;
+    }
 }
 @keyframes start-btn-animation{
     0% { font-size : 2.3vw;}
@@ -42,4 +48,7 @@ body{
 }
 .back-map-img:hover {
     filter : brightness(0.9);
+}
+.cursor-default {
+    cursor : default;
 }
