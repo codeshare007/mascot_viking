@@ -1,4 +1,5 @@
-const baseUrlPath = "src/"
+const baseUrlPath = "src/";
+var timerID = null;
 var goToURL = (url) => {
     $.ajax({
         url : baseUrlPath+url,
@@ -14,13 +15,17 @@ var goToURL = (url) => {
 }
 var startTimer = ()=>{
     let timer = new Date().getTime();
-    setInterval(()=>{countDown(timer);}, 1000);
+    timerID = setInterval(()=>{countDown(timer);}, 1000);
 }
 var countDown = (startime) => {
     let current = new Date().getTime();
     let total_time = 3600;
     let now = total_time-parseInt((current-startime)/1000);;
-    
+    if(now<0){
+        // checking if solved the puzzle
+        clearInterval(timerID);
+        return;
+    }
     let hour = Math.floor(now/3600);
     hour = hour.toString().length==1?'0'+hour:hour;
     let minute = Math.floor((now%3600)/60);

@@ -29,3 +29,17 @@ body{
 .start-btn:hover{
     color : white;
 }
+.item {
+    width : 70%;
+    cursor : pointer;
+}
+.item:hover {
+    filter : brightness(0.9);
+}
+.back-map-img {
+    width : 17vw;
+    cursor : pointer;
+}
+.back-map-img:hover {
+    filter : brightness(0.9);
+}
