@@ -6,6 +6,12 @@
     .bookcase {
         width : 100%;
     }
+    .slider-puzzle {
+        cursor : pointer;
+    }
+    .slider-puzzle:hover {
+        filter : brightness(0.9);
+    }
     .col-sm-6 {
         width : 50%;
     }
@@ -140,6 +146,18 @@
         }
     }
 </style>
+<script>
+    var openPuzzle = () => {
+        $("#slider_puzzle_dlg").dialog({
+            title : "Puzzle",
+            autoOpen : false,
+            closeOnEscape : true,
+            modal : true,
+            width : 500,
+            height : 500
+        }).dialog("open");
+    }
+</script>
 <div class="w-100">
     <div class="d-flex">
         <img class="ml-auto mr-5 back-map-img" src="assets/images/back-map.png" onclick="goToURL('mainpage/mainpage.php')"/>
@@ -147,6 +165,7 @@
     <div class="row">
         <div class="col-md-5 col-sm-5">
             <img class="library-img" src="assets/images/library.png" />
+            <img class="slider-puzzle w-50 mt-5 ml-5" src="assets/images/Slider--Puzzle.png" onclick="openPuzzle()"/>
         </div>
         <div class="col-md-7 col-sm-7" align="center">
             <img class="bookcase" src="assets/images/bookcase.png"/>
@@ -178,5 +197,8 @@
                 <div class="book9-rect"></div>
             </a>
         </div>
+    </div>
+    <div id="slider_puzzle_dlg" style="display:none;">
+        <iframe class="pl-2" src='https://puzzel.org/en/slidingpuzzle/embed?p=-MeUTfoVB9WzDBnfksV1' width='100%' height='100%' frameborder='0'></iframe>
     </div>
 </div>

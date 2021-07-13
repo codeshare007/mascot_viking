@@ -52,3 +52,13 @@ body{
 .cursor-default {
     cursor : default;
 }
+
+.ui-widget-header{
+    border: 1px solid #3e47ac;
+    background: #474747;
+    color: #00ffff;
+}
+.ui-widget-overlay {
+    background: black;
+    opacity: 0.7;
+}
