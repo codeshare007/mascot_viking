@@ -15,6 +15,7 @@
         width : 50%;
     }
     .desk-rect {
+        cursor : pointer;
         position : absolute;
         bottom : 8vw;
         width : 10vw;

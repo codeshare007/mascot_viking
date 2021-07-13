@@ -1,5 +1,14 @@
 const baseUrlPath = "src/";
 var timerID = null;
+window.onbeforeunload = (e)=>{
+    e = e || window.event;
+
+    if(e)
+        e.returnValue = "Are you sure to leave this site?";
+    
+    return "Are you sure to leave this site?";
+
+}
 var goToURL = (url) => {
     $.ajax({
         url : baseUrlPath+url,

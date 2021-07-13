@@ -9,6 +9,7 @@
         width: 27vw;
         height: 7vw;
         left: 2vw;
+        cursor : pointer;
     }
     .trash-bin-rect {
         position: absolute;
@@ -16,6 +17,7 @@
         width: 9vw;
         height: 10vw;
         left: 29vw;
+        cursor : pointer;
     }
     .eraser-rect {
         position: absolute;
@@ -23,18 +25,20 @@
         width: 5vw;
         height: 3vw;
         left: 29vw;
+        cursor : pointer;
     }
     .eraser {
         margin-left: -1vw;
-        margin-top: 1.5vw;
+        margin-top: 1.1vw;
+        width : 100%;
     }
     .phone-rect {
         position: absolute;
         bottom: 20vw;
         width: 5vw;
         height: 6vw;
-        background: red;
         right: 8vw;
+        cursor : pointer;
     }
     @media screen and (max-width : 575px) {
         .school-image {
@@ -54,7 +58,7 @@
             height: 19vw;
         }
         .eraser-rect {
-            bottom: 40vw;
+            bottom: 39vw;
             width: 12vw;
             height: 9vw;
             left: 48vw;
@@ -73,7 +77,30 @@
         width : 100%;
         margin-top : 50px;
     }
+    @keyframes eraser_animate1 {
+        30% { transform : rotate(-90deg)translate(5vw, -11vw); }
+        50% { transform : rotate(-90deg)translate(10vw, -13vw); }
+        70% { transform : rotate(-90deg)translate(0vw, -15vw); }
+        90% { transform : rotate(-90deg)translate(10vw, -17vw); }
+        100% { transform : rotate(-90deg)translate(0vw, -19vw); }
+    }
+    @keyframes eraser_animate2 {
+        30% { transform : rotate(-90deg)translate(5vw, -21vw); }
+        50% { transform : rotate(-90deg)translate(10vw, -25vw); }
+        70% { transform : rotate(-90deg)translate(0vw, -29vw); }
+        90% { transform : rotate(-90deg)translate(10vw, -33vw); }
+        100% { transform : rotate(-90deg)translate(0vw, -37vw); }
+    }
+    .eraser-am1 {
+        animation-name : eraser_animate1;
+        animation-duration : 5s;
+    }
+    .eraser-am2 {
+        animation-name : eraser_animate2;
+        animation-duration : 5s;
+    }
 </style>
+<script src="src/school/school.js"></script>
 <div class="w-100 h-75">
     <div class="d-flex">
         <img class="ml-auto mr-5 back-map-img" src="assets/images/back-map.png" onclick="goToURL('mainpage/mainpage.php')"/>
@@ -92,10 +119,10 @@
             <a class="cursor-default" href="assets/images/SCHOOL-Trash.jpg" target="blank">
                 <div class="trash-bin-rect"></div>
             </a>
-            <div class="eraser-rect">
+            <div class="eraser-rect" onclick="clickEraser()">
                 <img class="eraser" src="assets/images/eraser.png"/>
             </div>
-            <a class="cursor-default" onclick="">
+            <a class="cursor-default" onclick="goToURL('school/phone.php')">
                 <div class="phone-rect"></div>
             </a>
         </div>

@@ -11,6 +11,7 @@
     height: 90px;
     bottom: 167px;
     left: 25vw;
+    cursor : pointer;
 }
 .envelope-rect {
     position: absolute;
@@ -18,6 +19,7 @@
     height: 120px;
     bottom: 122px;
     right: 13vw;
+    cursor : pointer;
 }
 </style>
 <div class="w-100 h-75">
