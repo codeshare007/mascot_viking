@@ -113,7 +113,7 @@
         </div>
         <div class="col-md-7 col-sm-7" align="center">
             <img class="school-room-img" src="assets/images/SCHOOL---Room.png"/>
-            <a class="cursor-default" href="assets/images/SCHOOL-Desk.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/SCHOOL-Desk.JPG" target="blank">
                 <div class="desk-rect"></div>
             </a>
             <a class="cursor-default" href="assets/images/SCHOOL-Trash.jpg" target="blank">
