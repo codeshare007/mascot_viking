@@ -51,19 +51,19 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">James</div>
-                            <a target="blank"><img id="video_0" onclick="selectVideo(0)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_0" onclick="selectVideo(0)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">Megan/Madison</div>
-                            <a target="blank"><img id="video_1" onclick="selectVideo(1)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_1" onclick="selectVideo(1)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">Kyle</div>
-                            <a target="blank"><img id="video_2" onclick="selectVideo(2)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_2" onclick="selectVideo(2)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -71,19 +71,19 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">Zachary</div>
-                            <a target="blank"><img id="video_3" onclick="selectVideo(3)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_3" onclick="selectVideo(3)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">Mrs. Fletcher</div>
-                            <a target="blank"><img id="video_4" onclick="selectVideo(4)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_4" onclick="selectVideo(4)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="text-center">
                             <div class="person-name">Jazmine</div>
-                            <a target="blank"><img id="video_5" onclick="selectVideo(5)" src="assets/images/video.png"/></a>
+                            <a target="_blank"><img id="video_5" onclick="selectVideo(5)" src="assets/images/video.png"/></a>
                         </div>
                     </div>
                 </div>

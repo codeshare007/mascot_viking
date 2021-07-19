@@ -169,31 +169,31 @@
         </div>
         <div class="col-md-7 col-sm-7" align="center">
             <img class="bookcase" src="assets/images/bookcase.png"/>
-            <a class="cursor-default" href="assets/images/LIBRARY-VikingsBook.png" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-VikingsBook.png" target="_blank">
                 <div class="book1-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/All_About_code.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/All_About_code.jpg" target="_blank">
                 <div class="book2-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-Dictionary.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-Dictionary.jpg" target="_blank">
                 <div class="book3-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-StoriesOfTheSea.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-StoriesOfTheSea.jpg" target="_blank">
                 <div class="book4-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-SpiesInHistory.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-SpiesInHistory.jpg" target="_blank">
                 <div class="book5-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-KingsOfFrance.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-KingsOfFrance.jpg" target="_blank">
                 <div class="book6-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-WordValues.png" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-WordValues.png" target="_blank">
                 <div class="book7-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-TrueCrimes.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-TrueCrimes.jpg" target="_blank">
                 <div class="book8-rect"></div>
             </a>
-            <a class="cursor-default" href="assets/images/LIBRARY-FootballPlayers.jpg" target="blank">
+            <a class="cursor-default" href="assets/images/LIBRARY-FootballPlayers.jpg" target="_blank">
                 <div class="book9-rect"></div>
             </a>
         </div>

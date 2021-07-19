@@ -35,14 +35,14 @@
                 <img class="back-map-img" src="assets/images/back-map.png" onclick="goToURL('mainpage/mainpage.php')"/>
             </div>
             <div class="mt-5">
-                <a href='https://forms.gle/XjJYMhJnMdNWshpE8' target="blank">
+                <a href='https://forms.gle/XjJYMhJnMdNWshpE8' target="_blank">
                     <img class="item w-50" src="assets/images/submit.png"/>
                 </a>
             </div>
         </div>
     </div>
     <div class="d-flex justify-content-center mr-5">
-        <a class="cursor-default" href="assets/images/POLICE-PoliceIncidentReport.png" target="blank">
+        <a class="cursor-default" href="assets/images/POLICE-PoliceIncidentReport.png" target="_blank">
             <div class="desk-rect"></div>
         </a>
     </div>

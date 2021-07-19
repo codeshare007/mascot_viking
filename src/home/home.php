@@ -17,7 +17,7 @@
             <img class="w-75" src="assets/images/home.png" />
         </div>
         <div>
-            <a href="assets/docs/intro.pdf" target="blank">
+            <a href="assets/docs/intro.pdf" target="_blank">
                 <img class="intro-doc-img" src="assets/images/intro-doc.png"/>
             </a>
         </div>
@@ -27,7 +27,7 @@
             <img class="back-map-img" src="assets/images/back-map.png" onclick="goToURL('mainpage/mainpage.php')"/>
         </div>
         <div class="mt-4">
-            <a href='resource/newcast.php' target="blank">
+            <a href='resource/newcast.php' target="_blank">
                 <img class="item" src="assets/images/intro-video.png"/>
             </a>
         </div>

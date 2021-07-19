@@ -32,10 +32,10 @@
             <img class="back-map-img" src="assets/images/back-map.png" onclick="goToURL('mainpage/mainpage.php')"/>
         </div>
     </div>
-    <a class="cursor-default" href="assets/images/PARK-CrumpledPaper.jpg" target="blank">
+    <a class="cursor-default" href="assets/images/PARK-CrumpledPaper.jpg" target="_blank">
         <div class="paper-rect"></div>
     </a>
-    <a class="cursor-default" href="assets/images/PARK---EnvelopeContents.jpg" target="blank">
+    <a class="cursor-default" href="assets/images/PARK---EnvelopeContents.jpg" target="_blank">
         <div class="envelope-rect"></div>
     </a>
 </div>
